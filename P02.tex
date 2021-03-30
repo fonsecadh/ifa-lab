@@ -20,6 +20,8 @@
 \usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 \usepackage[hmargin=2cm,top=4cm,headheight=65pt,footskip=65pt]{geometry}
 \usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {./screenshots/p02/} }
 
 % Documento
 \begin{document}
@@ -30,6 +32,19 @@
 \maketitle
 % Ejercicio 1
 \section{Ejercicio 1}
+Se guarda la fecha y hora del sistema en el archivo \verb|ej01.txt| con el comando \verb|date > ej01.txt|. Se muestra ese archivo con el comando \verb|cat|.
+\begin{figure}[h!]
+  \caption{Resultado del comando \textit{cat ej01.txt}.}
+  \centering
+  \includegraphics{e1-1.png}
+\end{figure}
+
+Se accede al sitio web \url{https://time.is/es/Spain} y se comprueba que la hora es la misma.
+\begin{figure}[h!]
+    \caption{Hora en el sitio web \textit{time.is}.}
+  \centering
+  \includegraphics{e1-2.png}
+\end{figure}
 % Bibliografía
 \begin{thebibliography}{8}
 \end{thebibliography}
