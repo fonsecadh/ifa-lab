@@ -53,6 +53,21 @@ Se utiliza el comando \verb|uname| con las opciones \verb|v| (lista la versión 
   \centering
   \includegraphics{e2.png}
 \end{figure}
+% Ejercicio 3
+\section{Ejercicio 3}
+Se utiliza el comando \verb|lshw|, primero con la flag \verb|short| para encontrar el nombre de la clase de los dispositivos de red.
+\begin{figure}[h!]
+    \caption{Ejercicio 3: \textit{lshw -short}.}
+  \centering
+  \includegraphics{e3-1.png}
+\end{figure}
+
+Una vez se sabe que el nombre de la clase de los dispositivos de red es \verb|network|, se utiliza el comando \verb|lshw| con la flag \verb|-class network|.
+\begin{figure}[h!]
+    \caption{Ejercicio 3: \textit{lshw -class network}.}
+  \centering
+  \includegraphics{e3-2.png}
+\end{figure}
 % Bibliografía
 \begin{thebibliography}{8}
 \end{thebibliography}
