@@ -76,6 +76,7 @@ También puede utilizarse el comando \verb|ip -h a| para mostrar más informaci�
   \includegraphics{e3-3.png}
 \end{figure}
 % Ejercicio 4
+\section{Ejercicio 4}
 Se utiliza el comando \verb|netstat| del paquete \verb|net-tools|. Su flag \verb|a| permite ver todos los sockets, por lo que \verb|sudo netstat -a > ej04.txt| guarda la información de los sockets activos y no activos en un fichero de texto. También son interesantes sus flags \verb|n| (se muestran las direcciones numéricamente), \verb|p| (se muestran los procesos pertenecientes a los sockets), \verb|t| (tcp) y \verb|u| (udp).
 \begin{figure}[h!]
     \caption{Ejercicio 4: \textit{cat ej04.txt | less}.}
@@ -93,6 +94,14 @@ También se puede ver información de los servicios de red en \verb|/etc/service
     \caption{Ejercicio 4: \textit{less /etc/services}.}
   \centering
   \includegraphics{e4-3.png}
+\end{figure}
+% Ejercicio 5
+\section{Ejercicio 5}
+Para resolver este ejercicio se usan tres comandos: \verb|who| muestra los usuarios conectados y la terminal en la que están, \verb|tty| muestra la terminal conectada actualmente al standard input y \verb|uptime| muestra el tiempo que ha pasado desde el arranque del sistema.
+\begin{figure}[h!]
+    \caption{Ejercicio 5: \textit{who, tty} y \textit{uptime}.}
+  \centering
+  \includegraphics{e5.png}
 \end{figure}
 % Bibliografía
 \begin{thebibliography}{8}
