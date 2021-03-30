@@ -75,6 +75,18 @@ También puede utilizarse el comando \verb|ip -h a| para mostrar más informaci�
   \centering
   \includegraphics{e3-3.png}
 \end{figure}
+% Ejercicio 4
+Se utiliza el comando \verb|netstat| del paquete \verb|net-tools|. Su flag \verb|a| permite ver todos los sockets, por lo que \verb|sudo netstat -a > ej04.txt| guarda la información de los sockets activos y no activos en un fichero de texto. También son interesantes sus flags \verb|n| (se muestran las direcciones numéricamente), \verb|p| (se muestran los procesos pertenecientes a los sockets), \verb|t| (tcp) y \verb|u| (udp).
+\begin{figure}[h!]
+    \caption{Ejercicio 4: \textit{cat ej04.txt | less}.}
+  \centering
+  \includegraphics{e4-1.png}
+\end{figure}
+\begin{figure}[h!]
+    \caption{Ejercicio 4: \textit{sudo netstat -ptun}.}
+  \centering
+  \includegraphics{e4-2.png}
+\end{figure}
 % Bibliografía
 \begin{thebibliography}{8}
 \end{thebibliography}
