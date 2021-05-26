@@ -165,12 +165,22 @@ Se utiliza el comando \verb|lsof|, cuya salida está pensada para ser la entrada
 
 % Ejercicio 10
 \section{Ejercicio 10}
-Se puede usar el comando \verb|lsblk| con la opción \verb|-f|. El comando muestra información de los dispositivos del sistema y la opción \textit{f} muestra los sistemas de ficheros de los mismos.
+Se puede usar el comando \verb|lsblk| con la opción \verb|f|. El comando muestra información de los dispositivos del sistema y la opción \textit{f} muestra los sistemas de ficheros de los mismos.
 
 \begin{figure}[H]
     \caption{Ejercicio 10: \textit{lsblk -f}.}
   \centering
   \includegraphics{e10.png}
+\end{figure}
+
+% Ejercicio 11
+\section{Ejercicio 11}
+Para mostrar las particiones del disco \textit{sda} junto a sus sectores de inicio y fin, se utiliza el comando \verb|fdisk| con la opción \verb|l|, que lista dichas particiones, y pasándole como parámetro el disco que queremos inspeccionar (en este caso \textit{/dev/sda}). No es necesario especificarle que las unidades del tamaño sean sectores puesto que es el comportamiento por defecto.
+
+\begin{figure}[H]
+    \caption{Ejercicio 11: \textit{sudo fdisk -l /dev/sda}.}
+  \centering
+  \includegraphics{e11.png}
 \end{figure}
 
 % Bibliografía
