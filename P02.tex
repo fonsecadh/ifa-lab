@@ -183,6 +183,16 @@ Para mostrar las particiones del disco \textit{sda} junto a sus sectores de inic
   \includegraphics{e11.png}
 \end{figure}
 
+% Ejercicio 12
+\section{Ejercicio 12}
+El fichero donde el kernel almacena las acciones realizadas por \verb|cron| se encuentra en \textit{/var/log/syslog}. Puede hacerse un \verb|grep| con la string \textit{cron} en dicho archivo para visualizar las acciones, sin embargo, debido al poco espacio en la partición \textit{/var}, en nuestro caso ese archivo está vacío.
+
+\begin{figure}[H]
+    \caption{Ejercicio 12: \textit{grep cron /var/log/syslog}.}
+  \centering
+  \includegraphics{e12.png}
+\end{figure}
+
 % Bibliografía
 \begin{thebibliography}{8}
 \end{thebibliography}
