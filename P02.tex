@@ -21,6 +21,7 @@
 \usepackage[hmargin=2cm,top=4cm,headheight=65pt,footskip=65pt]{geometry}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{float}
 \graphicspath{ {./screenshots/p02/} }
 
 % Documento
@@ -33,14 +34,14 @@
 % Ejercicio 1
 \section{Ejercicio 1}
 Se guarda la fecha y hora del sistema en el archivo \verb|ej01.txt| con el comando \verb|date > ej01.txt|. Se muestra ese archivo con el comando \verb|cat|.
-\begin{figure}[h!]
+\begin{figure}[H]
   \caption{Ejercicio 1: Resultado del comando \textit{cat ej01.txt}.}
   \centering
   \includegraphics{e1-1.png}
 \end{figure}
 
 Se accede al sitio web \url{https://time.is/es/Spain} y se comprueba que la hora es la misma.
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 1: Hora en el sitio web \textit{time.is}.}
   \centering
   \includegraphics{e1-2.png}
@@ -48,7 +49,7 @@ Se accede al sitio web \url{https://time.is/es/Spain} y se comprueba que la hora
 % Ejercicio 2
 \section{Ejercicio 2}
 Se utiliza el comando \verb|uname| con las opciones \verb|v| (lista la versión del kernel) y \verb|o| (lista el nombre del sistema operativo).
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 2: \textit{uname -vo}.}
   \centering
   \includegraphics{e2.png}
@@ -56,21 +57,21 @@ Se utiliza el comando \verb|uname| con las opciones \verb|v| (lista la versión 
 % Ejercicio 3
 \section{Ejercicio 3}
 Se utiliza el comando \verb|lshw|, primero con la flag \verb|short| para encontrar el nombre de la clase de los dispositivos de red.
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 3: \textit{lshw -short}.}
   \centering
   \includegraphics{e3-1.png}
 \end{figure}
 
 Una vez se sabe que el nombre de la clase de los dispositivos de red es \verb|network|, se utiliza el comando \verb|lshw| con la flag \verb|-class network|.
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 3: \textit{lshw -class network}.}
   \centering
   \includegraphics{e3-2.png}
 \end{figure}
 
 También puede utilizarse el comando \verb|ip -h a| para mostrar más información sobre el dispositivo de red \verb|enp0s3|.
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 3: \textit{ip -h a}.}
   \centering
   \includegraphics{e3-3.png}
@@ -78,19 +79,19 @@ También puede utilizarse el comando \verb|ip -h a| para mostrar más informaci�
 % Ejercicio 4
 \section{Ejercicio 4}
 Se utiliza el comando \verb|netstat| del paquete \verb|net-tools|. Su flag \verb|a| permite ver todos los sockets, por lo que \verb|sudo netstat -a > ej04.txt| guarda la información de los sockets activos y no activos en un fichero de texto. También son interesantes sus flags \verb|n| (se muestran las direcciones numéricamente), \verb|p| (se muestran los procesos pertenecientes a los sockets), \verb|t| (tcp) y \verb|u| (udp).
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 4: \textit{cat ej04.txt | less}.}
   \centering
   \includegraphics{e4-1.png}
 \end{figure}
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 4: \textit{sudo netstat -ptun}.}
   \centering
   \includegraphics{e4-2.png}
 \end{figure}
 
 También se puede ver información de los servicios de red en \verb|/etc/services|.
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 4: \textit{less /etc/services}.}
   \centering
   \includegraphics{e4-3.png}
@@ -98,7 +99,7 @@ También se puede ver información de los servicios de red en \verb|/etc/service
 % Ejercicio 5
 \section{Ejercicio 5}
 Para resolver este ejercicio se usan tres comandos: \verb|who| muestra los usuarios conectados y la terminal en la que están, \verb|tty| muestra la terminal conectada actualmente al standard input y \verb|uptime| muestra el tiempo que ha pasado desde el arranque del sistema.
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 5: \textit{who, tty} y \textit{uptime}.}
   \centering
   \includegraphics{e5.png}
@@ -106,7 +107,7 @@ Para resolver este ejercicio se usan tres comandos: \verb|who| muestra los usuar
 % Ejercicio 6
 \section{Ejercicio 6}
 Existen al menos dos opciones de mostrar la información sobre la tabla de enrutamiento: mediante el comando \verb|netstat| con su flag \verb|r| (que muestra la tabla de enrutamiento) o usando el comando \verb|route| con su flag \verb|n| (que muestra las direcciones de red de forma numérica).
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 6: \textit{netstat -r} y \textit{route -n}.}
   \centering
   \includegraphics{e6.png}
@@ -114,7 +115,7 @@ Existen al menos dos opciones de mostrar la información sobre la tabla de enrut
 % Ejercicio 7
 \section{Ejercicio 7}
 Se usa el comando \verb|ps|. Dicho comando puede utilizarse siguiendo tres sintaxis: la de UNIX, la de BSD o la de GNU. Para mostrar todos los procesos del sistema con sintaxis de UNIX podría usarse \verb|ps -eF|. Con sintaxis de BSD se puede usar \verb|ps axu|. Para que se muestre el nombre del proceso sin cortarse se puede pasar el resultado del comando \verb|ps| al comando \verb|less| con una pipe de UNIX.
-\begin{figure}[h!]
+\begin{figure}[H]
     \caption{Ejercicio 7: \textit{ps axu | less}.}
   \centering
   \includegraphics{e7.png}
