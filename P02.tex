@@ -195,12 +195,30 @@ El fichero donde el kernel almacena las acciones realizadas por \verb|cron| se e
 
 % Ejercicio 24
 \section{Ejercicio 24}
-El historial de comandos de \verb|bash| del usuario se encuentra en un fichero oculto de su carpeta \textit{HOME} llamado \textit{bash\_history}. Podemos utilizar el comando \verb|ls| con la flag \textit{a} para listar todos los archivos, incluidos los ocultos, para comprobar que efectivamente existe el archivo del historial.
+El historial de comandos de \verb|bash| del usuario se encuentra en un fichero oculto de su carpeta \textit{HOME} llamado \textit{bash\_history}. Se puede  utilizar el comando \verb|ls| con la flag \textit{a} para listar todos los archivos, incluidos los ocultos, para comprobar que efectivamente existe el archivo del historial.
 
 \begin{figure}[H]
     \caption{Ejercicio 24: \textit{ls -a; cat .bash\_history}.}
   \centering
   \includegraphics{e24.png}
+\end{figure}
+
+% Ejercicio 27
+\section{Ejercicio 27}
+Se descomprime el archivo con el comando \verb|tar| y las flags \textit{xvzf}, siendo \textit{x} una indicación de que se quiere extraer los contenidos del archivo comprimido, \textit{v} para que lo haga de manera verbosa, \textit{z} para indicarle al comando que el archivo es un zip y \textit{f} para pasarle el fichero que se desea extraer al comando.
+
+\begin{figure}[H]
+    \caption{Ejercicio 27: \textit{tar -xvzf}.}
+  \centering
+  \includegraphics{e27-1.png}
+\end{figure}
+
+Una vez descomprimidos los ficheros de texto, se procede a utilizar tres nuevas herramientas. Se usa \verb|tac| para concatenar ficheros de forma inversa (es el comando \verb|cat| invertido), el lenguaje de programación AWK para procesar texto y el comando \verb|uniq| para omitir líneas repetidas.
+
+\begin{figure}[H]
+    \caption{Ejercicio 27: \textit{tac, AWK y uniq}.}
+  \centering
+  \includegraphics{e27-2.png}
 \end{figure}
 
 % Bibliografía
