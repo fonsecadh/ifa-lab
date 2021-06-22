@@ -624,6 +624,40 @@ Para rellenar la tabla se usarán los datos obtenidos al ejecutar el análisis d
 
 TBD table.
 
+% Ejercicio 11
+\section{Ejercicio 11}
+Para realizar la primera parte del ejercicio se utilizará el comando \verb|xxd| junto al comando \verb|grep|. Empezamos buscando la cadena \textit{JFIF} en la imagen del ejercicio. Con esta búsqueda se sacará el offset en hexadecimal, y se convertirá a decimal en \textit{bash}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 11: \textit{xxd} con una pipe a \textit{grep}}
+    \centering
+    \includegraphics[scale=0.7]{e11-1.png}
+\end{figure}
+
+Una vez obtenido el offset, se buscará el final de la imagen. Para ello se buscará con \verb|grep| la cadena \textit{ffd9} pasándole al comando \verb|xxd| el offset obtenido previamente.
+
+\begin{figure}[H]
+    \caption{Ejercicio 11: Buscando el final de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{e11-2.png}
+\end{figure}
+
+Una vez se ha encontrado el offset del final de la imagen, se le suma el desplazamiento, en este caso 10 bytes, y se calcula el tamaño restando el offset final del inicial.
+
+\begin{figure}[H]
+    \caption{Ejercicio 11: Calculando tamaño de imagen}
+    \centering
+    \includegraphics[scale=0.7]{e11-3.png}
+\end{figure}
+
+Ahora se utiliza el comando \verb|dd| con la información obtenida previamente y se comprueba que la imagen extraída es la del cartel que pone 'Welcome to Moscow'.
+
+\begin{figure}[H]
+    \caption{Ejercicio 11: Carving de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{e11-4.png}
+\end{figure}
+
 
 
 % Bibliografía
