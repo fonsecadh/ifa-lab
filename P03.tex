@@ -402,7 +402,26 @@ Se ejecuta el análisis y se obtienen los resultados con los que se rellenará l
     \includegraphics[scale=0.7]{e6-5.png}
 \end{figure}
 
-TBD table.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        Nombre del fichero en Autopsy & Tamaño del fichero (en Bytes) & Tipo MIME \\
+        \hline\hline
+        f0010000.7z & 1130244 & application/x-7z-compressed \\
+        \hline
+        f0022208.bz2 & 5685248 & application/x-bzip2 \\
+        \hline
+        f0033312.gz & 5171200 & application/x-gzip \\
+        \hline
+        f0055780.wim & 941059 & application/octet-stream \\
+        \hline
+        f0067619.rar & 868785 & application/x-rar-compressed \\
+        \hline
+        f0079316.zip & 643764 & application/zip \\
+        \hline
+    \end{tabular}
+\end{table}
 
 Se extraen las imágenes de los ficheros comprimidos.
 
@@ -420,7 +439,26 @@ Se ejecuta la herramienta \textit{exiftool} para obtener los datos que se usan a
     \includegraphics[scale=0.7]{e6-7.png}
 \end{figure}
 
-TBD table.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{3cm}|p{2cm}|p{8cm}|p{3cm}|}
+        \hline
+        Nombre del fichero en Autopsy & Fecha y hora de la imagen & Dispositivo con el que se tomó la imagen & Breve descripción de la imagen \\
+        \hline\hline
+        6-f0033312 & 2003/02/18 10:46:51 & SR86 EPSON DIGITAL STILL CAMERA & Casa con nieve \\
+        \hline
+        5-f0022208 & 2004/05/31 15:03:51 & KODAK DX4530 ZOOM DIGITAL CAMERA & Flor blanca \\
+        \hline
+        100\_0094.jpg & 2004/06/19 04:52:06 & KODAK DX4530 ZOOM DIGITAL CAMERA & Iglesia / Catedral \\
+        \hline
+        100\_0172.jpg & 2004/07/02 19:42:41 & KODAK DX4530 ZOOM DIGITAL CAMERA & Flor rojiza \\
+        \hline
+        100\_0183.jpg & 2004/07/05 19:57:36 & KODAK DX4530 ZOOM DIGITAL CAMERA & Girasol \\
+        \hline
+        100\_0221.jpg & 2004/08/28 07:32:22 & KODAK DX4530 ZOOM DIGITAL CAMERA & Cañas bambú \\
+        \hline
+    \end{tabular}
+\end{table}
 
 % Ejercicio 7
 \section{Ejercicio 7}
@@ -526,7 +564,22 @@ Para rellenar la tabla se usarán los datos obtenidos al ejecutar el análisis d
     \includegraphics[scale=0.7]{e8-6.png}
 \end{figure}
 
-TBD table.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{2cm}|c|p{1.5cm}|c|c|c|}
+        \hline
+        Nombre del fichero en Autopsy & Tamaño del fichero (en Bytes) & Tipo MIME & Autor & Género & Duración & Tasa de Muestreo \\
+        \hline\hline
+        f0010000.mp3 & 1053174 & audio/mpeg & Kevin McLeod & Electronica & 32s 783ms & 44.1kHz \\
+        \hline
+        f0022057.wav & 4612660 & audio/vnd.wave & - & - & 26s 148ms & 44.1kHz \\
+        \hline
+        f0041067.au & 9243672 & audio/basic & - & - & 3min 29s & 44.1kHz \\
+        \hline
+        f0069122.wma & 1074873 & audio/x-ms-wma & - & (80) & 1min 5s & 44.1kHz \\
+        \hline
+    \end{tabular}
+\end{table}
 
 % Ejercicio 9
 \section{Ejercicio 9}
@@ -574,7 +627,24 @@ Para rellenar la tabla se usarán los datos obtenidos al ejecutar el análisis d
     \includegraphics[scale=0.7]{e9-6.png}
 \end{figure}
 
-TBD table.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{2cm}|c|p{1.5cm}|c|c|c|}
+        \hline
+        Nombre del fichero en Autopsy & Tamaño del fichero (en Bytes) & Tipo MIME & Autor & Género & Duración & Tasa de Muestreo \\
+        \hline\hline
+        f0010020.mp3 & 516598 & audio/mpeg & - & - & 16s 143ms & 44.1kHz \\
+        \hline
+        f0011029.mp3 & 526545 & audio/mpeg & Kevin McLeod & Electronica & 16s 326ms & 44.1kHz \\
+        \hline
+        f0022057.wav & 4612660 & audio/vnd.wave & - & - & 26s 148ms & 44.1kHz \\
+        \hline
+        f0047085.au & 9243672 & audio/basic & - & - & 3min 29s & 44.1kHz \\
+        \hline
+    \end{tabular}
+\end{table}
+
+Se puede observar que los dos ficheros mp3 son dos fragmentos del fichero mp3 del ejercicio 8.
 
 % Ejercicio 10
 \section{Ejercicio 10}
@@ -622,7 +692,26 @@ Para rellenar la tabla se usarán los datos obtenidos al ejecutar el análisis d
     \includegraphics[scale=0.7]{e10-6.png}
 \end{figure}
 
-TBD table.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{2cm}|c|c|c|p{1.5cm}|c|p{2cm}|}
+        \hline
+        Nombre del fichero en Autopsy & Tamaño del fichero (en Bytes) & Tipo MIME & FPS & Resolución & Tasa Muestreo & Duración & Fecha \\
+        \hline\hline
+        f001000.mp4 & 1136007 & video/mp4 & 24 & 512x340 & 24 bit depth & 16.38s & 2012/07/17 18:59:19 \\
+        \hline
+        f0022219.avi & 1470360 & video/x-msvideo & 30 & 512x288 & 44kHz & 10.13s & - \\
+        \hline
+        f0035091.mov & 497414 & video/quicktime & 29.97 & 512x288 & 24 bit depth & 12.15s & 2012/08/02 13:19:44 \\
+        \hline
+        f0046063.flv & 3713213 & video/x-flv & 30 & 640x480 & 44kHz & 26.07s & - \\
+        \hline
+        f0063316.mpg & 22579200 & video/mpeg & 29.97 & 512x288 & 44kHz & 19.79s & - \\
+        \hline
+        f00117416.wmv & 2461696 & video/x-ms-wmv & 29.97 & 512x288 & 44kHz & 25.53s & 2012/08/16 12:10:37 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 % Ejercicio 11
 \section{Ejercicio 11}
@@ -698,7 +787,26 @@ Se obtienen los resultados del análisis con los que se responderán a las difer
     \includegraphics[scale=0.7]{e12-5.png}
 \end{figure}
 
-a) TBD table
+a)
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Número partición & Sector comienzo & Sector finalización & Tipo Sistema de Ficheros \\
+        \hline\hline
+        1 & 0 & 127 & Unallocated \\
+        \hline
+        2 & 128 & 16511 & DOS FAT12 \\
+        \hline
+        3 & 16512 & 82047 & DOS FAT16 \\
+        \hline
+        4 & 82048 & 213119 & Win95 FAT32 \\
+        \hline
+        5 & 213120 & 2097152 & Unallocated \\
+        \hline
+    \end{tabular}
+\end{table}
 
 b) Para responder a esta cuestión se observan los resultados de la pestaña 'Views'.
 
@@ -718,7 +826,20 @@ c) Para rellenar esta tabla se miran los metadatos que muestra Autopsy de cada a
     \includegraphics[scale=0.7]{e12-7.png}
 \end{figure}
 
-TBD table
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|p{2cm}|p{2cm}|p{2cm}|}
+        \hline
+        Nombre & Tamaño & Partición & Sector relativo & Acceso (GMT) & Modificación (GMT) & Creación (GMT) \\
+        \hline\hline
+        \_BEID.txt & 712 & vol 2 & 170 & 1999/01/01 23:00:00 & 2000/02/29 13:11:00 & 2011/12/25 13:02:22 \\
+        \hline
+        Betelgeuse.txt & 712 & vol 3 & 546 & 1999/01/01 23:00:00 & 2000/02/29 13:12:00 & 2011/12/25 13:02:24 \\
+        \hline
+        Bellatrix.txt & 712 & vol 4 & 8195 & 1999/01/01 23:00:00 & 2000/02/29 13:13:00 & 2011/12/25 13:02:24 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 d) Se muestran a continuación las líneas de tiempo de los tres ficheros borrados, en el filtro de la parte izquierda de la captura se observa el fichero actual.
 
