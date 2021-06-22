@@ -462,7 +462,23 @@ Se ejecuta el análisis y se observa que Autopsy ha detectado una posible bomba 
     \includegraphics[scale=0.7]{e7-5.png}
 \end{figure}
 
-TBD preguntas av.
+Se instalan los paquetes \textit{clamav} y \textit{clamtk} y se analiza la carpeta donde se extrayeron los ficheros comprimidos.
+
+\begin{figure}[H]
+    \caption{Ejercicio 7: Instalación de \textit{clamav} y \textit{clamtk}}
+    \centering
+    \includegraphics[scale=0.7]{e7-6.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 7: Resultados del análisis del antivirus}
+    \centering
+    \includegraphics[scale=0.7]{e7-7.png}
+\end{figure}
+
+a) El antivirus no detecta nada, pero Autopsy si que notificó que uno de los ficheros podía ser una bomba zip. Este es un ataque que comprime con una alta proporción una gran cantidad de datos en un archivo comprimido de pocos datos. Sirve para inutilizar los programas que descomprimem dicho fichero, normalmente se busca inutilizar un antivirus, para luego ejecutar otro tipo de malware.
+
+b) Bomba zip.
 
 
 
