@@ -903,22 +903,21 @@ Se obtienen los resultados del análisis con los que se responderán a las difer
 
 a)
 
-TBD CAMBIAR TABLA!
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|}
         \hline
         Número partición & Sector comienzo & Sector finalización & Tipo Sistema de Ficheros \\
         \hline\hline
-        1 & 0 & 127 & Unallocated \\
+        1 & 0 & 60 & Unallocated \\
         \hline
-        2 & 128 & 16511 & DOS FAT12 \\
+        2 & 61 & 651235 & Linux \\
         \hline
-        3 & 16512 & 82047 & DOS FAT16 \\
+        3 & 651236 & 1302471 & Linux \\
         \hline
-        4 & 82048 & 213119 & Win95 FAT32 \\
+        4 & 1302472 & 1953707 & Linux \\
         \hline
-        5 & 213120 & 2097152 & Unallocated \\
+        5 & 1953708 & 2097152 & Unallocated \\
         \hline
     \end{tabular}
 \end{table}
@@ -943,18 +942,17 @@ c) Para rellenar esta tabla se miran los metadatos que muestra Autopsy de cada a
 
 Como se puede observar hay menos metadatos sobre los ficheros borrados que en el ejercicio anterior, por lo que habrá secciones de la tabla sin rellenar.
 
-TBD CAMBIAR TABLA!
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|p{2cm}|p{2cm}|p{2cm}|}
         \hline
         Nombre & Tamaño & Partición & Sector relativo & Acceso (GMT) & Modificación (GMT) & Creación (GMT) \\
         \hline\hline
-        \_BEID.txt & 712 & vol 2 & 170 & 1999/01/01 23:00:00 & 2000/02/29 13:11:00 & 2011/12/25 13:02:22 \\
+        Bellatrix.txt & 0 & vol 2 & - & - & - & - \\
         \hline
-        Betelgeuse.txt & 712 & vol 3 & 546 & 1999/01/01 23:00:00 & 2000/02/29 13:12:00 & 2011/12/25 13:02:24 \\
+        Bunda.txt & 0 & vol 3 & - & 1999/01/02 08:04:00 & 2011/10/16 18:52:31 & 2011/10/16 18:52:31 \\
         \hline
-        Bellatrix.txt & 712 & vol 4 & 8195 & 1999/01/01 23:00:00 & 2000/02/29 13:13:00 & 2011/12/25 13:02:24 \\
+        Botein.txt & 0 & vol 4 & - & 1999/01/02 08:05:00 & 2011/10/16 18:52:31 & 2011/10/16 18:52:31 \\
         \hline
     \end{tabular}
 \end{table}
@@ -1103,7 +1101,6 @@ Se obtienen los resultados del análisis con los que se responderán a las difer
     \includegraphics[scale=0.7]{e16-5.png}
 \end{figure}
 
-TBD CAMBIAR TABLA!
 \begin{table}[H]
     \centering
     \begin{tabular}{|c|c|c|c|}
@@ -1112,13 +1109,9 @@ TBD CAMBIAR TABLA!
         \hline\hline
         1 & 0 & 127 & Unallocated \\
         \hline
-        2 & 128 & 16511 & DOS FAT12 \\
+        2 & 128 & 2091135 & NTFS / exFAT \\
         \hline
-        3 & 16512 & 82047 & DOS FAT16 \\
-        \hline
-        4 & 82048 & 213119 & Win95 FAT32 \\
-        \hline
-        5 & 213120 & 2097152 & Unallocated \\
+        3 & 2091136 & 2097152 & Unallocated \\
         \hline
     \end{tabular}
 \end{table}
@@ -1139,18 +1132,13 @@ b) Se observan los metadatos del fichero \textit{Bunda.txt}.
     \includegraphics[scale=0.7]{e16-7.png}
 \end{figure}
 
-TBD CAMBIAR TABLA!
 \begin{table}[H]
     \centering
-    \begin{tabular}{|c|c|c|c|p{2cm}|p{2cm}|p{2cm}|}
+    \begin{tabular}{|c|c|c|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
         \hline
-        Nombre & Tamaño & Partición & Sector relativo & Acceso (GMT) & Modificación (GMT) & Creación (GMT) \\
+        Nombre & Tamaño & Partición & Acceso (GMT) & Modificación (GMT) & Cambio (GMT) & Creación (GMT) \\
         \hline\hline
-        \_BEID.txt & 712 & vol 2 & 170 & 1999/01/01 23:00:00 & 2000/02/29 13:11:00 & 2011/12/25 13:02:22 \\
-        \hline
-        Betelgeuse.txt & 712 & vol 3 & 546 & 1999/01/01 23:00:00 & 2000/02/29 13:12:00 & 2011/12/25 13:02:24 \\
-        \hline
-        Bellatrix.txt & 712 & vol 4 & 8195 & 1999/01/01 23:00:00 & 2000/02/29 13:13:00 & 2011/12/25 13:02:24 \\
+        Bunda.txt & 2107392 & vol 2 & 1999/01/02 08:04:00 & 2000/02/29 18:14:00 & 2011/11/27 02:41:55 & 2011/11/27 01:34:58 \\
         \hline
     \end{tabular}
 \end{table}
