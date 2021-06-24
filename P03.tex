@@ -1045,6 +1045,24 @@ h) Se usa el comando \verb|istat| con la flag \textit{f} y el argumento \textit{
     \includegraphics[scale=0.7]{e14-7.png}
 \end{figure}
 
+% Ejercicio 15
+\section{Ejercicio 15}
+Se busca obtener el inodo del fichero huérfano de la partición dos. Para ello, se utiliza el comando \verb|fls| con las flags \textit{ro}, \textit{r} para que la búsqueda sea recursiva y \textit{o} para recibir el sector de inicio de la partición.
+
+\begin{figure}[H]
+    \caption{Ejercicio 15: Salida del comando \textit{fls}}
+    \centering
+    \includegraphics[scale=0.7]{e15-1.png}
+\end{figure}
+
+Una vez se tiene el inodo del fichero huérfano, en este caso el inodo 13, se usa el comando \verb|icat| con las flags \textit{or}, \textit{o} para indicar el sector de comienzo y \textit{r} para recuperar el fichero en caso de que este borrado. Se le indica al comando el inodo a buscar y se redirige la salida del comando a un fichero de texto.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{icat} redirigida a un fichero de texto plano}
+    \centering
+    \includegraphics[scale=0.7]{e15-2.png}
+\end{figure}
+
 
 
 % Bibliografía
