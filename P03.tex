@@ -861,6 +861,128 @@ d) Se muestran a continuación las líneas de tiempo de los tres ficheros borrad
     \includegraphics[scale=0.7]{e12-10.png}
 \end{figure}
 
+% Ejercicio 12
+\section{Ejercicio 13}
+Se crea el caso en Autopsy con los datos solicitados.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Creación del caso}
+    \centering
+    \includegraphics[scale=0.7]{e13-1.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Detalles del examinador}
+    \centering
+    \includegraphics[scale=0.7]{e13-2.png}
+\end{figure}
+
+Añadimos la imagen a analizar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Selección de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{e13-3.png}
+\end{figure}
+
+Se seleccionan los módulos de identificación de tipos de fichero y \textit{PhotoRec Carver}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Selección de módulos}
+    \centering
+    \includegraphics[scale=0.7]{e13-4.png}
+\end{figure}
+
+Se obtienen los resultados del análisis con los que se responderán a las diferentes cuestiones del ejercicio.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Resultados del análisis}
+    \centering
+    \includegraphics[scale=0.7]{e13-5.png}
+\end{figure}
+
+a)
+
+TBD CAMBIAR TABLA!
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Número partición & Sector comienzo & Sector finalización & Tipo Sistema de Ficheros \\
+        \hline\hline
+        1 & 0 & 127 & Unallocated \\
+        \hline
+        2 & 128 & 16511 & DOS FAT12 \\
+        \hline
+        3 & 16512 & 82047 & DOS FAT16 \\
+        \hline
+        4 & 82048 & 213119 & Win95 FAT32 \\
+        \hline
+        5 & 213120 & 2097152 & Unallocated \\
+        \hline
+    \end{tabular}
+\end{table}
+
+b) Para responder a esta cuestión se observan los resultados de la pestaña 'Views'.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Ficheros de texto plano}
+    \centering
+    \includegraphics[scale=0.7]{e13-6.png}
+\end{figure}
+
+Se puede ver que hay 9 ficheros de texto plano. Hay 4 ficheros adicionales borrados, uno llamado OrphanFiles, el cual es autogenerado por Autopsy, y tres ficheros con extensión txt pero cuyos tipos MIME no son texto plano.
+
+c) Para rellenar esta tabla se miran los metadatos que muestra Autopsy de cada archivo borrado.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Metadatos de los ficheros borrados}
+    \centering
+    \includegraphics[scale=0.7]{e13-7.png}
+\end{figure}
+
+Como se puede observar hay menos metadatos sobre los ficheros borrados que en el ejercicio anterior, por lo que habrá secciones de la tabla sin rellenar.
+
+TBD CAMBIAR TABLA!
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|p{2cm}|p{2cm}|p{2cm}|}
+        \hline
+        Nombre & Tamaño & Partición & Sector relativo & Acceso (GMT) & Modificación (GMT) & Creación (GMT) \\
+        \hline\hline
+        \_BEID.txt & 712 & vol 2 & 170 & 1999/01/01 23:00:00 & 2000/02/29 13:11:00 & 2011/12/25 13:02:22 \\
+        \hline
+        Betelgeuse.txt & 712 & vol 3 & 546 & 1999/01/01 23:00:00 & 2000/02/29 13:12:00 & 2011/12/25 13:02:24 \\
+        \hline
+        Bellatrix.txt & 712 & vol 4 & 8195 & 1999/01/01 23:00:00 & 2000/02/29 13:13:00 & 2011/12/25 13:02:24 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+d) Se muestran a continuación las líneas de tiempo de los tres ficheros borrados, en el filtro de la parte izquierda de la captura se observa el fichero actual.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Línea temporal de \textit{Bellatrix.txt}}
+    \centering
+    \includegraphics[scale=0.7]{e13-8.png}
+\end{figure}
+
+Se observa que no hay datos para \textit{Bellatrix.txt}
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Línea temporal de \textit{Bunda.txt}}
+    \centering
+    \includegraphics[scale=0.7]{e13-9.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Línea temporal de \textit{Botein.txt}}
+    \centering
+    \includegraphics[scale=0.7]{e13-10.png}
+\end{figure}
+
+Para \textit{Bunda.txt} y \textit{Botein.txt} sí que se recuperan datos.
+
 
 
 % Bibliografía
