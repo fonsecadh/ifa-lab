@@ -1063,6 +1063,106 @@ Una vez se tiene el inodo del fichero huérfano, en este caso el inodo 13, se us
     \includegraphics[scale=0.7]{e15-2.png}
 \end{figure}
 
+% Ejercicio 16
+\section{Ejercicio 16}
+Se crea el caso en Autopsy con los datos solicitados.
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Creación del caso}
+    \centering
+    \includegraphics[scale=0.7]{e16-1.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Detalles del examinador}
+    \centering
+    \includegraphics[scale=0.7]{e16-2.png}
+\end{figure}
+
+Añadimos la imagen a analizar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Selección de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{e16-3.png}
+\end{figure}
+
+Se seleccionan los módulos de identificación de tipos de fichero y \textit{PhotoRec Carver}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Selección de módulos}
+    \centering
+    \includegraphics[scale=0.7]{e16-4.png}
+\end{figure}
+
+Se obtienen los resultados del análisis con los que se responderán a las diferentes cuestiones del ejercicio.
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Resultados del análisis}
+    \centering
+    \includegraphics[scale=0.7]{e16-5.png}
+\end{figure}
+
+TBD CAMBIAR TABLA!
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Número partición & Sector comienzo & Sector finalización & Tipo Sistema de Ficheros \\
+        \hline\hline
+        1 & 0 & 127 & Unallocated \\
+        \hline
+        2 & 128 & 16511 & DOS FAT12 \\
+        \hline
+        3 & 16512 & 82047 & DOS FAT16 \\
+        \hline
+        4 & 82048 & 213119 & Win95 FAT32 \\
+        \hline
+        5 & 213120 & 2097152 & Unallocated \\
+        \hline
+    \end{tabular}
+\end{table}
+
+a) Hay dos ficheros borrados pero solo \textit{Bunda.txt} tiene el tipo MIME texto plano.
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Ficheros borrados}
+    \centering
+    \includegraphics[scale=0.7]{e16-6.png}
+\end{figure}
+
+b) Se observan los metadatos del fichero \textit{Bunda.txt}. 
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Metadatos de \textit{Bunda.txt}}
+    \centering
+    \includegraphics[scale=0.7]{e16-7.png}
+\end{figure}
+
+TBD CAMBIAR TABLA!
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|p{2cm}|p{2cm}|p{2cm}|}
+        \hline
+        Nombre & Tamaño & Partición & Sector relativo & Acceso (GMT) & Modificación (GMT) & Creación (GMT) \\
+        \hline\hline
+        \_BEID.txt & 712 & vol 2 & 170 & 1999/01/01 23:00:00 & 2000/02/29 13:11:00 & 2011/12/25 13:02:22 \\
+        \hline
+        Betelgeuse.txt & 712 & vol 3 & 546 & 1999/01/01 23:00:00 & 2000/02/29 13:12:00 & 2011/12/25 13:02:24 \\
+        \hline
+        Bellatrix.txt & 712 & vol 4 & 8195 & 1999/01/01 23:00:00 & 2000/02/29 13:13:00 & 2011/12/25 13:02:24 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+c) Se muestra a continuación la línea temporal de \textit{Bunda.txt}
+
+\begin{figure}[H]
+    \caption{Ejercicio 16: Línea temporal de \textit{Bunda.txt}}
+    \centering
+    \includegraphics[scale=0.7]{e16-8.png}
+\end{figure}
+
 
 
 % Bibliografía
