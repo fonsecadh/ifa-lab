@@ -861,7 +861,7 @@ d) Se muestran a continuación las líneas de tiempo de los tres ficheros borrad
     \includegraphics[scale=0.7]{e12-10.png}
 \end{figure}
 
-% Ejercicio 12
+% Ejercicio 13
 \section{Ejercicio 13}
 Se crea el caso en Autopsy con los datos solicitados.
 
@@ -982,6 +982,68 @@ Se observa que no hay datos para \textit{Bellatrix.txt}
 \end{figure}
 
 Para \textit{Bunda.txt} y \textit{Botein.txt} sí que se recuperan datos.
+
+% Ejercicio 14
+\section{Ejercicio 14}
+Se responde a continuación a las diferentes cuestiones planteadas por el ejercicio.
+
+a) Se utiliza el comando \verb|mmls|, que lista las particiones con sus sectores de inicio y fin, entre otros datos.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{mmls}}
+    \centering
+    \includegraphics[scale=0.7]{e14-1.png}
+\end{figure}
+
+b) Sí, la información es consistente entre ambas herramientas.
+
+c) Se usa el comando \verb|fsstat|, con la flag \textit{t} para mostrar solo el tipo de partición y la flag \textit{o} para pasarle al comando el sector donde comienza la partición.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{fsstat} para las diferentes particiones}
+    \centering
+    \includegraphics[scale=0.7]{e14-2.png}
+\end{figure}
+
+d) Se utiliza el comando \verb|fls| que recibe como argumentos, entre otros, el comienzo del sector de la partición que se quiere analizar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{fls} con las flags \textit{ro}}
+    \centering
+    \includegraphics[scale=0.7]{e14-3.png}
+\end{figure}
+
+e) Se usa ahora el comando \verb|fls| con las flags \textit{dFro}, \textit{d} muestra solo elementos borrados, \textit{F} muestra solo ficheros, \textit{r} es para que la búsqueda sea recursiva y \textit{o} para introducir el comienzo del sector de la partición.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{fls} con las flags \textit{dFro}}
+    \centering
+    \includegraphics[scale=0.7]{e14-4.png}
+\end{figure}
+
+f) Se utiliza el comando \verb|ffind| con las flags \textit{oa}, \textit{o} para introducir el comienzo del sector de la partición y \textit{a} para buscar todos los ficheros asociados. Se le pasa al comando el inodo del elemento que se está buscando, en este caso el 13.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{ffind}}
+    \centering
+    \includegraphics[scale=0.7]{e14-5.png}
+\end{figure}
+
+g) Se usa el comando \verb|istat| pasandole como argumento el comienzo del sector de la partición y el inodo a buscar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{istat} para el inodo 13}
+    \centering
+    \includegraphics[scale=0.7]{e14-6.png}
+\end{figure}
+
+h) Se usa el comando \verb|istat| con la flag \textit{f} y el argumento \textit{list}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{istat -f list}}
+    \centering
+    \includegraphics[scale=0.7]{e14-7.png}
+\end{figure}
 
 
 
