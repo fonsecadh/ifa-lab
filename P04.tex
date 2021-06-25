@@ -426,6 +426,61 @@ Se verán a continuación los diferentes campos del mensaje con ID 25.
 
 % Ejercicio 5
 \section{Ejercicio 5}
+Como la base de datos se había utilizado en el ejercicio 4, ya está extraída. Se procede a abrirla y a examinar los contenidos de la tabla \textit{messages}. La fila que se analizará es la del mensaje con ID 21.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: Base de datos \textit{threads\_db2} en \textit{orca}}
+    \centering
+    \includegraphics[scale=0.7]{e4-2.png}
+\end{figure}
+
+a) Se procede a buscar el emisor del mensaje.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: Campo \textit{sender} del mensaje con ID 21}
+    \centering
+    \includegraphics[scale=0.7]{e5-1.png}
+\end{figure}
+
+b) Se busca ahora la hora de emisión del mensaje, para ello se mira el campo \textit{timestamp\_ms}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: Campo \textit{timestamp\_ms} del mensaje con ID 21}
+    \centering
+    \includegraphics[scale=0.7]{e5-2.png}
+\end{figure}
+
+TBD Conversor EPOCH
+
+% Ejercicio 6
+\section{Ejercicio 6}
+a) Se encuentra el archivo en la carpeta indicada y se extrae a una carpeta para su análisis.
+
+\begin{figure}[H]
+    \caption{Ejercicio 6: Imagen a analizar en su carpeta original}
+    \centering
+    \includegraphics[scale=0.7]{e6-1.png}
+\end{figure}
+
+A continuación se observa la salida del script \textit{FileInfo} de la imagen extraída. Se puede observar que su tipo MIME es \textit{image/jpeg}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 6: Metadatos de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{e6-2.png}
+\end{figure}
+
+b) La fecha del último acceso al archivo puede observarse en una de las anteriores capturas, 2018/11/09 14:42:57 (CET).
+
+c) Se muestra la imagen del archivo a continuación.
+
+\begin{figure}[H]
+    \caption{Ejercicio 6: Imagen del archivo}
+    \centering
+    \includegraphics[scale=0.7]{e6-3.png}
+\end{figure}
+
+d) Ni \textit{FileInfo} ni \textit{MediaInfo} contienen metadatos de la localización de la imagen. Autopsy tampoco los muestra, por lo que se concluye que dichos metadatos no están disponibles.
 
 
 
