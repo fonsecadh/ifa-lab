@@ -576,7 +576,139 @@ Con lo anterior visto, se procede a rellenar la lista de datos requeridos:
 \section{Práctica 04}
 
 \subsection{Ejercicio 7}
-TBD
+Debido a que la máquina que se utiliza para hacer los ejercicios tiene un sistema operativo Linux, el ejercicio 7 se realizó en el ordenador de un familiar. Se han incluído datos personales en las capturas para asegurar la autoría de las mismas.
+
+Lo primero que se debe hacer en este ejercicio es crear un caso en la herramienta \textit{Belkasoft Evidence Center X}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Creación del caso}
+    \centering
+    \includegraphics[scale=0.7]{p04/e7-1.PNG}
+\end{figure}
+
+Se selecciona la imagen.
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Selección de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{p04/e7-2.PNG}
+\end{figure}
+
+Se eligen las opciones que pide el enunciado.
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Tipo de análisis}
+    \centering
+    \includegraphics[scale=0.7]{p04/e7-3.PNG}
+\end{figure}
+
+Se configuran las opciones de análisis avanzadas.
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Opciones de análisis avanzadas}
+    \centering
+    \includegraphics[scale=0.7]{p04/e7-4.PNG}
+\end{figure}
+
+Se ejecuta el análisis, nótese que el tiempo de ejecución es bastante superior al que se obtuvo al analizar la misma imagen con Autopsy, aunque los resultados son más completos.
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Ejecución del análisis}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-6.PNG}
+\end{figure}
+
+Finalizado el análisis, se comienza a responder a las preguntas del ejercicio. Cabe mencionar que el análisis ha finalizado con errores, pero considerando los resultados obtenidos y viendo el tiempo de ejecución, no se cree conveniente reintentar el análisis.
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Creación del caso}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-9.PNG}
+\end{figure}
+
+rr) Como se puede observar en la anterior captura, hay 195 documentos identificados.
+
+ss) 
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Documentos de tipo \textit{pdf}}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-10.PNG}
+\end{figure}
+
+Hay un solo documento de tipo \textit{pdf}, llamado \textit{forensics.pdf}.
+
+tt)
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: URLs visitadas}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-11.PNG}
+\end{figure}
+
+No hay ninguna url correspondiente a \textit{Facebook}.
+
+uu)
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Cookies relativas a \textit{Facebook}}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-12.PNG}
+\end{figure}
+
+Aunque no haya ninguna url visitada correspondiente a \textit{Facebook}, inspeccionando las cookies se puede observar que la hora de la última visita a \textit{Facebook} fue a las 13:42:23 del día 2019/11/09.
+
+vv)
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Imágenes identificadas}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-13.PNG}
+\end{figure}
+
+Como se observa en la figura, se identificaron algo más de 30.000 imágenes.
+
+ww)
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Imágenes en formato \textit{jpg}}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-14.PNG}
+\end{figure}
+
+Se han encontrado 1011 imágenes en formato \textit{jpg}. Sin embargo, se han buscado mediante el nombre de usuario, lo que no es la mejor aproximación (ya que podría haber imágenes con tipo MIME \textit{jpg} que no tuvieran extensión), pero como no se encontró ningún filtro por tipo MIME se deja esta solución. Sería una funcionalidad interesante para el programa (a menos que ya exista, en cuyo caso no pudo encontrarse).
+
+xx)
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Reconocimiento de rostros}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-15.PNG}
+\end{figure}
+
+Hay 100 imágenes con rostros detectados, aunque en su mayoría se trata de \textit{emojis}, y muchos de ellos ni siquiera son rostros.
+
+yy)
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Eventos de calendario}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-16.PNG}
+\end{figure}
+
+Se han identificado 54 eventos de calendario.
+
+zz)
+
+\begin{figure}[H]
+    \caption{Ejercicio 4: Eventos en Los Ángeles}
+    \centering
+    \includegraphics[scale=0.4]{p04/e7-17.PNG}
+\end{figure}
+
+Solo uno se desarrolla en Los Ángeles.
+
+aaa) La fecha de comienzo del evento puede verse en la anterior captura, es el 2016/04/23 a las 8:00:00.
 
 
 
