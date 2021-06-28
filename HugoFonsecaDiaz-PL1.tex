@@ -583,7 +583,7 @@ Lo primero que se debe hacer en este ejercicio es crear un caso en la herramient
 \begin{figure}[H]
     \caption{Ejercicio 4: Creación del caso}
     \centering
-    \includegraphics[scale=0.7]{p04/e7-1.PNG}
+    \includegraphics[scale=0.6]{p04/e7-1.PNG}
 \end{figure}
 
 Se selecciona la imagen.
@@ -607,7 +607,7 @@ Se configuran las opciones de análisis avanzadas.
 \begin{figure}[H]
     \caption{Ejercicio 4: Opciones de análisis avanzadas}
     \centering
-    \includegraphics[scale=0.7]{p04/e7-4.PNG}
+    \includegraphics[scale=0.4]{p04/e7-4.PNG}
 \end{figure}
 
 Se ejecuta el análisis, nótese que el tiempo de ejecución es bastante superior al que se obtuvo al analizar la misma imagen con Autopsy, aunque los resultados son más completos.
@@ -621,7 +621,7 @@ Se ejecuta el análisis, nótese que el tiempo de ejecución es bastante superio
 Finalizado el análisis, se comienza a responder a las preguntas del ejercicio. Cabe mencionar que el análisis ha finalizado con errores, pero considerando los resultados obtenidos y viendo el tiempo de ejecución, no se cree conveniente reintentar el análisis.
 
 \begin{figure}[H]
-    \caption{Ejercicio 4: Creación del caso}
+    \caption{Ejercicio 4: Resultado del análisis}
     \centering
     \includegraphics[scale=0.4]{p04/e7-9.PNG}
 \end{figure}
@@ -716,7 +716,63 @@ aaa) La fecha de comienzo del evento puede verse en la anterior captura, es el 2
 \section{Práctica 05}
 
 \subsection{Ejercicio 5}
-TBD
+Se realiza una conexión al campus virtual con el navegador Firefox en navegación privada.
+
+\begin{figure}[H]
+  \caption{Ejercicio 5: Campus virtual}
+  \centering
+    \includegraphics[scale=0.7]{p05/e5-1.png}
+\end{figure}
+
+Se utiliza la aplicación de Nirsoft llamada \textit{CurrPorts}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: \textit{CurrPorts}}
+  \centering
+    \includegraphics[scale=0.7]{p05/e5-2.png}
+\end{figure}
+
+Se ordena la salida de la aplicación por nombre de proceso para poder visualizar todos los procesos de Firefox.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: \textit{CurrPorts} - Firefox}
+  \centering
+    \includegraphics[scale=0.7]{p05/e5-3.png}
+\end{figure}
+
+Curiosamente, no sale ninguna conexión con el campus virtual. Se prueba ahora con una ventana de navegación privada del navegador Chrome.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: \textit{CurrPorts} - Chrome (I)}
+  \centering
+    \includegraphics[scale=0.7]{p05/e5-4.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: \textit{CurrPorts} - Chrome (II)}
+  \centering
+    \includegraphics[scale=0.7]{p05/e5-5.png}
+\end{figure}
+
+Ahora sí que se visualizan las conexiones con la intranet de uniovi. Se ha podido comprobar por casualidad que Firefox ofrece menos información sobre sus conexiones que Chrome, quizás por su mayor enfoque en la privacidad de los usuarios. Se desconoce si esto solo ocurre al usar navegación privada.
+
+Si se quisiera obtener esta información por consola, lo primero habría que tener cuidado porque los comandos del equipo intervenido pueden no dar información confiable, pero suponiendo que es una operación segura, se deberá usar el comando \verb|netstat|. Se listan a continuación sus opciones.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: \textit{netstat -h}}
+  \centering
+    \includegraphics[scale=0.7]{p05/e5-6.png}
+\end{figure}
+
+Lo que pide el ejercicio puede obtenerse mediante las flags \textit{bfp}, cuyas funcionalidades fueron listadas en la anterior captura. La opción \textit{p} requiere como argumento el nombre del protocolo que se está buscando, siendo en este caso TCP.
+
+\begin{figure}[H]
+    \caption{Ejercicio 5: \textit{netstat -b -f -p TCP}}
+  \centering
+    \includegraphics[scale=0.7]{p05/e5-7.png}
+\end{figure}
+
+La operación debe realizarse con permisos de administrador.
 
 \subsection{Ejercicio 25}
 TBD
