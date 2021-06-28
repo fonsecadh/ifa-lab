@@ -1,79 +1,94 @@
 \babel@toc {spanish}{}
 \contentsline {figure}{\numberline {1}{\ignorespaces Sistema del alumno Hugo Fonseca Díaz.}}{2}{figure.1}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Máquinas virtuales.}}{3}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Ejercicio 27: \textit {tar -xvzf}.}}{4}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Ejercicio 27: \textit {tac, AWK y uniq}.}}{5}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Ejercicio 31: Creación del caso}}{6}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Ejercicio 31: Selección de la imagen a analizar}}{7}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Ejercicio 31: Palabras clave}}{8}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Ejercicio 31: Módulos seleccionados}}{9}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Ejercicio 31: Configuración de los lenguajes de la búsqueda}}{10}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Ejercicio 31: Resultados del análisis}}{11}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Ejercicio 31: Menú reconstruido}}{12}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Ejercicio 8: Creación del caso}}{13}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Ejercicio 8: Detalles del examinador}}{14}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Ejercicio 8: Selección de la imagen}}{15}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Ejercicio 8: Selección de módulos}}{16}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Ejercicio 8: Resultados del análisis}}{17}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Ejercicio 8: Herramienta \textit {MediaInfo}}}{18}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Ejercicio 13: Creación del caso}}{19}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Ejercicio 13: Detalles del examinador}}{20}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Ejercicio 13: Selección de la imagen}}{21}{figure.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Ejercicio 13: Selección de módulos}}{22}{figure.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Ejercicio 13: Resultados del análisis}}{23}{figure.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Ejercicio 13: Ficheros de texto plano}}{24}{figure.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Ejercicio 13: Metadatos de los ficheros borrados}}{25}{figure.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Ejercicio 13: Línea temporal de \textit {Bellatrix.txt}}}{26}{figure.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Ejercicio 13: Línea temporal de \textit {Bunda.txt}}}{27}{figure.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Ejercicio 13: Línea temporal de \textit {Botein.txt}}}{28}{figure.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Ejercicio 14: Salida del comando \textit {mmls}}}{29}{figure.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Ejercicio 14: Salida del comando \textit {fsstat} para las diferentes particiones}}{30}{figure.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Ejercicio 14: Salida del comando \textit {fls} con las flags \textit {ro}}}{31}{figure.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Ejercicio 14: Salida del comando \textit {fls} con las flags \textit {dFro}}}{32}{figure.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Ejercicio 14: Salida del comando \textit {ffind}}}{33}{figure.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Ejercicio 14: Salida del comando \textit {istat} para el inodo 13}}{34}{figure.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Ejercicio 14: Salida del comando \textit {istat -f list}}}{35}{figure.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con la interfaz gráfica de \textit {exiftool} (I)}}{36}{figure.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con la interfaz gráfica de \textit {exiftool} (II)}}{37}{figure.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con el comando \textit {exiftool} (I)}}{38}{figure.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con el comando \textit {exiftool} (II)}}{39}{figure.38}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Ejercicio 19: Metadatos de la imagen 2 con el comando \textit {exiftool} (I)}}{40}{figure.39}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Ejercicio 19: Metadatos de la imagen 2 con el comando \textit {exiftool} (II)}}{41}{figure.40}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Ejercicio 19: Metadatos de la imagen 3 con el comando \textit {exiftool} (I)}}{42}{figure.41}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Ejercicio 19: Metadatos de la imagen 3 con el comando \textit {exiftool} (II)}}{43}{figure.42}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Ejercicio 19: Metadatos de la imagen 4 con el comando \textit {exiftool} (I)}}{44}{figure.43}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Ejercicio 19: Metadatos de la imagen 4 con el comando \textit {exiftool} (II)}}{45}{figure.44}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Ejercicio 19: Metadatos de la imagen 5 con el comando \textit {exiftool} (I)}}{46}{figure.45}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Ejercicio 19: Metadatos de la imagen 5 con el comando \textit {exiftool} (II)}}{47}{figure.46}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Ejercicio 4: Creación del caso}}{48}{figure.47}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Ejercicio 4: Selección de la imagen}}{49}{figure.48}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Ejercicio 4: Tipo de análisis}}{50}{figure.49}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Ejercicio 4: Opciones de análisis avanzadas}}{50}{figure.50}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Ejercicio 4: Ejecución del análisis}}{51}{figure.51}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Ejercicio 4: Resultado del análisis}}{52}{figure.52}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Ejercicio 4: Documentos de tipo \textit {pdf}}}{53}{figure.53}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Ejercicio 4: URLs visitadas}}{54}{figure.54}%
-\contentsline {figure}{\numberline {55}{\ignorespaces Ejercicio 4: Cookies relativas a \textit {Facebook}}}{55}{figure.55}%
-\contentsline {figure}{\numberline {56}{\ignorespaces Ejercicio 4: Imágenes identificadas}}{56}{figure.56}%
-\contentsline {figure}{\numberline {57}{\ignorespaces Ejercicio 4: Imágenes en formato \textit {jpg}}}{57}{figure.57}%
-\contentsline {figure}{\numberline {58}{\ignorespaces Ejercicio 4: Reconocimiento de rostros}}{58}{figure.58}%
-\contentsline {figure}{\numberline {59}{\ignorespaces Ejercicio 4: Eventos de calendario}}{59}{figure.59}%
-\contentsline {figure}{\numberline {60}{\ignorespaces Ejercicio 4: Eventos en Los Ángeles}}{60}{figure.60}%
-\contentsline {figure}{\numberline {61}{\ignorespaces Ejercicio 5: Campus virtual}}{61}{figure.61}%
-\contentsline {figure}{\numberline {62}{\ignorespaces Ejercicio 5: \textit {CurrPorts}}}{62}{figure.62}%
-\contentsline {figure}{\numberline {63}{\ignorespaces Ejercicio 5: \textit {CurrPorts} - Firefox}}{63}{figure.63}%
-\contentsline {figure}{\numberline {64}{\ignorespaces Ejercicio 5: \textit {CurrPorts} - Chrome (I)}}{64}{figure.64}%
-\contentsline {figure}{\numberline {65}{\ignorespaces Ejercicio 5: \textit {CurrPorts} - Chrome (II)}}{65}{figure.65}%
-\contentsline {figure}{\numberline {66}{\ignorespaces Ejercicio 5: \textit {netstat -h}}}{66}{figure.66}%
-\contentsline {figure}{\numberline {67}{\ignorespaces Ejercicio 5: \textit {netstat -b -f -p TCP}}}{67}{figure.67}%
-\contentsline {figure}{\numberline {68}{\ignorespaces Ejercicio 25: USB con las particiones}}{68}{figure.68}%
-\contentsline {figure}{\numberline {69}{\ignorespaces Ejercicio 25: Borrado de las particiones}}{68}{figure.69}%
-\contentsline {figure}{\numberline {70}{\ignorespaces Ejercicio 25: Fallo al instalar los drivers de los puertos de USB 3.0}}{69}{figure.70}%
-\contentsline {figure}{\numberline {71}{\ignorespaces Ejercicio 25: Filtro USB configurado correctamente}}{69}{figure.71}%
-\contentsline {figure}{\numberline {72}{\ignorespaces Ejercicio 25: Aplicación \textit {testdisk}}}{70}{figure.72}%
-\contentsline {figure}{\numberline {73}{\ignorespaces Ejercicio 31: Hilo de Twitter}}{71}{figure.73}%
-\contentsline {figure}{\numberline {74}{\ignorespaces Ejercicio 31: Búsqueda inversa}}{72}{figure.74}%
-\contentsline {figure}{\numberline {75}{\ignorespaces Ejercicio 25: Noticia \textit {CNN en Español}}}{73}{figure.75}%
-\contentsline {figure}{\numberline {76}{\ignorespaces Ejercicio 25: Búsqueda inversa por rango de fechas}}{74}{figure.76}%
-\contentsline {figure}{\numberline {77}{\ignorespaces Ejercicio 25: Noticia de \textit {azcentral}}}{75}{figure.77}%
-\contentsline {figure}{\numberline {78}{\ignorespaces Ejercicio 25: Noticia de \textit {The Atlantic}}}{76}{figure.78}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Ejercicio 27: Enunciado.}}{3}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Ejercicio 27: \textit {tar -xvzf}.}}{4}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Ejercicio 27: \textit {tac, AWK y uniq}.}}{5}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Ejercicio 31: Enunciado (I).}}{6}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Ejercicio 31: Enunciado (II).}}{7}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Ejercicio 31: Creación del caso}}{8}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Ejercicio 31: Selección de la imagen a analizar}}{9}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Ejercicio 31: Palabras clave}}{10}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Ejercicio 31: Módulos seleccionados}}{11}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Ejercicio 31: Configuración de los lenguajes de la búsqueda}}{12}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Ejercicio 31: Resultados del análisis}}{13}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Ejercicio 31: Menú reconstruido}}{14}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Ejercicio 8: Enunciado.}}{15}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Ejercicio 8: Creación del caso}}{16}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Ejercicio 8: Detalles del examinador}}{17}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Ejercicio 8: Selección de la imagen}}{18}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Ejercicio 8: Selección de módulos}}{19}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Ejercicio 8: Resultados del análisis}}{20}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Ejercicio 8: Herramienta \textit {MediaInfo}}}{21}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Ejercicio 13: Enunciado (I).}}{22}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Ejercicio 13: Enunciado (II).}}{23}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Ejercicio 13: Creación del caso}}{24}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Ejercicio 13: Detalles del examinador}}{25}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Ejercicio 13: Selección de la imagen}}{26}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Ejercicio 13: Selección de módulos}}{27}{figure.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Ejercicio 13: Resultados del análisis}}{28}{figure.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Ejercicio 13: Ficheros de texto plano}}{29}{figure.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Ejercicio 13: Metadatos de los ficheros borrados}}{30}{figure.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Ejercicio 13: Línea temporal de \textit {Bellatrix.txt}}}{31}{figure.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Ejercicio 13: Línea temporal de \textit {Bunda.txt}}}{32}{figure.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Ejercicio 13: Línea temporal de \textit {Botein.txt}}}{33}{figure.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Ejercicio 14: Enunciado (I).}}{34}{figure.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Ejercicio 14: Enunciado (II).}}{35}{figure.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Ejercicio 14: Salida del comando \textit {mmls}}}{36}{figure.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Ejercicio 14: Salida del comando \textit {fsstat} para las diferentes particiones}}{37}{figure.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Ejercicio 14: Salida del comando \textit {fls} con las flags \textit {ro}}}{38}{figure.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Ejercicio 14: Salida del comando \textit {fls} con las flags \textit {dFro}}}{39}{figure.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Ejercicio 14: Salida del comando \textit {ffind}}}{40}{figure.40}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Ejercicio 14: Salida del comando \textit {istat} para el inodo 13}}{41}{figure.41}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Ejercicio 14: Salida del comando \textit {istat -f list}}}{42}{figure.42}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Ejercicio 19: Enunciado.}}{43}{figure.43}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con la interfaz gráfica de \textit {exiftool} (I)}}{44}{figure.44}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con la interfaz gráfica de \textit {exiftool} (II)}}{45}{figure.45}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con el comando \textit {exiftool} (I)}}{46}{figure.46}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Ejercicio 19: Metadatos de la imagen 1 con el comando \textit {exiftool} (II)}}{47}{figure.47}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Ejercicio 19: Metadatos de la imagen 2 con el comando \textit {exiftool} (I)}}{48}{figure.48}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Ejercicio 19: Metadatos de la imagen 2 con el comando \textit {exiftool} (II)}}{49}{figure.49}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Ejercicio 19: Metadatos de la imagen 3 con el comando \textit {exiftool} (I)}}{50}{figure.50}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Ejercicio 19: Metadatos de la imagen 3 con el comando \textit {exiftool} (II)}}{51}{figure.51}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Ejercicio 19: Metadatos de la imagen 4 con el comando \textit {exiftool} (I)}}{52}{figure.52}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Ejercicio 19: Metadatos de la imagen 4 con el comando \textit {exiftool} (II)}}{53}{figure.53}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Ejercicio 19: Metadatos de la imagen 5 con el comando \textit {exiftool} (I)}}{54}{figure.54}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Ejercicio 19: Metadatos de la imagen 5 con el comando \textit {exiftool} (II)}}{55}{figure.55}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Ejercicio 7: Enunciado (I).}}{56}{figure.56}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Ejercicio 7: Enunciado (II).}}{57}{figure.57}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Ejercicio 7: Enunciado (III).}}{58}{figure.58}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Ejercicio 4: Creación del caso}}{59}{figure.59}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Ejercicio 4: Selección de la imagen}}{60}{figure.60}%
+\contentsline {figure}{\numberline {61}{\ignorespaces Ejercicio 4: Tipo de análisis}}{61}{figure.61}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Ejercicio 4: Opciones de análisis avanzadas}}{61}{figure.62}%
+\contentsline {figure}{\numberline {63}{\ignorespaces Ejercicio 4: Ejecución del análisis}}{62}{figure.63}%
+\contentsline {figure}{\numberline {64}{\ignorespaces Ejercicio 4: Resultado del análisis}}{63}{figure.64}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Ejercicio 4: Documentos de tipo \textit {pdf}}}{64}{figure.65}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Ejercicio 4: URLs visitadas}}{65}{figure.66}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Ejercicio 4: Cookies relativas a \textit {Facebook}}}{66}{figure.67}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Ejercicio 4: Imágenes identificadas}}{67}{figure.68}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Ejercicio 4: Imágenes en formato \textit {jpg}}}{68}{figure.69}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Ejercicio 4: Reconocimiento de rostros}}{69}{figure.70}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Ejercicio 4: Eventos de calendario}}{70}{figure.71}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Ejercicio 4: Eventos en Los Ángeles}}{71}{figure.72}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Ejercicio 5: Enunciado.}}{72}{figure.73}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Ejercicio 5: Campus virtual}}{73}{figure.74}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Ejercicio 5: \textit {CurrPorts}}}{74}{figure.75}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Ejercicio 5: \textit {CurrPorts} - Firefox}}{75}{figure.76}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Ejercicio 5: \textit {CurrPorts} - Chrome (I)}}{76}{figure.77}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Ejercicio 5: \textit {CurrPorts} - Chrome (II)}}{77}{figure.78}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Ejercicio 5: \textit {netstat -h}}}{78}{figure.79}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Ejercicio 5: \textit {netstat -b -f -p TCP}}}{79}{figure.80}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Ejercicio 25: Enunciado.}}{79}{figure.81}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Ejercicio 25: USB con las particiones}}{80}{figure.82}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Ejercicio 25: Borrado de las particiones}}{80}{figure.83}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Ejercicio 25: Fallo al instalar los drivers de los puertos de USB 3.0}}{81}{figure.84}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Ejercicio 25: Filtro USB configurado correctamente}}{82}{figure.85}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Ejercicio 25: Aplicación \textit {testdisk}}}{82}{figure.86}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Ejercicio 31: Enunciado.}}{83}{figure.87}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Ejercicio 31: Hilo de Twitter}}{84}{figure.88}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Ejercicio 31: Búsqueda inversa}}{85}{figure.89}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Ejercicio 25: Noticia \textit {CNN en Español}}}{86}{figure.90}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Ejercicio 25: Búsqueda inversa por rango de fechas}}{87}{figure.91}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Ejercicio 25: Noticia de \textit {azcentral}}}{88}{figure.92}%
+\contentsline {figure}{\numberline {93}{\ignorespaces Ejercicio 25: Noticia de \textit {The Atlantic}}}{89}{figure.93}%
