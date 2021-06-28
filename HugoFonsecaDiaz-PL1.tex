@@ -162,6 +162,251 @@ Se reconstruye el menú del restaurante, creado inicialmente el 3 de noviembre d
 % Práctica 03
 \section{Práctica 03}
 
+\subsection{Ejercicio 8}
+Se crea el caso en Autopsy con los datos solicitados.
+
+\begin{figure}[H]
+    \caption{Ejercicio 8: Creación del caso}
+    \centering
+    \includegraphics[scale=0.7]{p03/e8-1.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 8: Detalles del examinador}
+    \centering
+    \includegraphics[scale=0.7]{p03/e8-2.png}
+\end{figure}
+
+Añadimos la imagen a analizar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 8: Selección de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{p03/e8-3.png}
+\end{figure}
+
+Se seleccionan los módulos de identificación de tipos de fichero, parseador de Exif y \textit{PhotoRec Carver}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 8: Selección de módulos}
+    \centering
+    \includegraphics[scale=0.7]{p03/e8-4.png}
+\end{figure}
+
+Para rellenar la tabla se usarán los datos obtenidos al ejecutar el análisis de Autopsy y mediante el uso de la herramienta \textit{MediaInfo}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 8: Resultados del análisis}
+    \centering
+    \includegraphics[scale=0.7]{p03/e8-5.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 8: Herramienta \textit{MediaInfo}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e8-6.png}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|p{2.5cm}|p{2cm}|c|p{1.5cm}|c|c|c|}
+        \hline
+        Nombre del fichero en Autopsy & Tamaño del fichero (en Bytes) & Tipo MIME & Autor & Género & Duración & Tasa de Muestreo \\
+        \hline\hline
+        f0010000.mp3 & 1053174 & audio/mpeg & Kevin McLeod & Electronica & 32s 783ms & 44.1kHz \\
+        \hline
+        f0022057.wav & 4612660 & audio/vnd.wave & - & - & 26s 148ms & 44.1kHz \\
+        \hline
+        f0041067.au & 9243672 & audio/basic & - & - & 3min 29s & 44.1kHz \\
+        \hline
+        f0069122.wma & 1074873 & audio/x-ms-wma & - & (80) & 1min 5s & 44.1kHz \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\subsection{Ejercicio 13}
+Se crea el caso en Autopsy con los datos solicitados.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Creación del caso}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-1.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Detalles del examinador}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-2.png}
+\end{figure}
+
+Añadimos la imagen a analizar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Selección de la imagen}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-3.png}
+\end{figure}
+
+Se seleccionan los módulos de identificación de tipos de fichero y \textit{PhotoRec Carver}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Selección de módulos}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-4.png}
+\end{figure}
+
+Se obtienen los resultados del análisis con los que se responderán a las diferentes cuestiones del ejercicio.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Resultados del análisis}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-5.png}
+\end{figure}
+
+a)
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        Número partición & Sector comienzo & Sector finalización & Tipo Sistema de Ficheros \\
+        \hline\hline
+        1 & 0 & 60 & Unallocated \\
+        \hline
+        2 & 61 & 651235 & Linux \\
+        \hline
+        3 & 651236 & 1302471 & Linux \\
+        \hline
+        4 & 1302472 & 1953707 & Linux \\
+        \hline
+        5 & 1953708 & 2097152 & Unallocated \\
+        \hline
+    \end{tabular}
+\end{table}
+
+b) Para responder a esta cuestión se observan los resultados de la pestaña 'Views'.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Ficheros de texto plano}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-6.png}
+\end{figure}
+
+Se puede ver que hay 9 ficheros de texto plano. Hay 4 ficheros adicionales borrados, uno llamado OrphanFiles, el cual es autogenerado por Autopsy, y tres ficheros con extensión txt pero cuyos tipos MIME no son texto plano.
+
+c) Para rellenar esta tabla se miran los metadatos que muestra Autopsy de cada archivo borrado.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Metadatos de los ficheros borrados}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-7.png}
+\end{figure}
+
+Como se puede observar hay menos metadatos sobre los ficheros borrados que en el ejercicio anterior, por lo que habrá secciones de la tabla sin rellenar.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|c|p{2cm}|p{2cm}|p{2cm}|}
+        \hline
+        Nombre & Tamaño & Partición & Sector relativo & Acceso (GMT) & Modificación (GMT) & Creación (GMT) \\
+        \hline\hline
+        Bellatrix.txt & 0 & vol 2 & - & - & - & - \\
+        \hline
+        Bunda.txt & 0 & vol 3 & - & 1999/01/02 08:04:00 & 2011/10/16 18:52:31 & 2011/10/16 18:52:31 \\
+        \hline
+        Botein.txt & 0 & vol 4 & - & 1999/01/02 08:05:00 & 2011/10/16 18:52:31 & 2011/10/16 18:52:31 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+d) Se muestran a continuación las líneas de tiempo de los tres ficheros borrados, en el filtro de la parte izquierda de la captura se observa el fichero actual.
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Línea temporal de \textit{Bellatrix.txt}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-8.png}
+\end{figure}
+
+Se observa que no hay datos para \textit{Bellatrix.txt}
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Línea temporal de \textit{Bunda.txt}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-9.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 13: Línea temporal de \textit{Botein.txt}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e13-10.png}
+\end{figure}
+
+Para \textit{Bunda.txt} y \textit{Botein.txt} sí que se recuperan datos.
+
+\subsection{Ejercicio 14}
+Se responde a continuación a las diferentes cuestiones planteadas por el ejercicio.
+
+a) Se utiliza el comando \verb|mmls|, que lista las particiones con sus sectores de inicio y fin, entre otros datos.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{mmls}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e14-1.png}
+\end{figure}
+
+b) Sí, la información es consistente entre ambas herramientas.
+
+c) Se usa el comando \verb|fsstat|, con la flag \textit{t} para mostrar solo el tipo de partición y la flag \textit{o} para pasarle al comando el sector donde comienza la partición.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{fsstat} para las diferentes particiones}
+    \centering
+    \includegraphics[scale=0.7]{p03/e14-2.png}
+\end{figure}
+
+d) Se utiliza el comando \verb|fls| que recibe como argumentos, entre otros, el comienzo del sector de la partición que se quiere analizar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{fls} con las flags \textit{ro}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e14-3.png}
+\end{figure}
+
+e) Se usa ahora el comando \verb|fls| con las flags \textit{dFro}, \textit{d} muestra solo elementos borrados, \textit{F} muestra solo ficheros, \textit{r} es para que la búsqueda sea recursiva y \textit{o} para introducir el comienzo del sector de la partición.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{fls} con las flags \textit{dFro}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e14-4.png}
+\end{figure}
+
+f) Se utiliza el comando \verb|ffind| con las flags \textit{oa}, \textit{o} para introducir el comienzo del sector de la partición y \textit{a} para buscar todos los ficheros asociados. Se le pasa al comando el inodo del elemento que se está buscando, en este caso el 13.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{ffind}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e14-5.png}
+\end{figure}
+
+g) Se usa el comando \verb|istat| pasandole como argumento el comienzo del sector de la partición y el inodo a buscar.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{istat} para el inodo 13}
+    \centering
+    \includegraphics[scale=0.7]{p03/e14-6.png}
+\end{figure}
+
+h) Se usa el comando \verb|istat| con la flag \textit{f} y el argumento \textit{list}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 14: Salida del comando \textit{istat -f list}}
+    \centering
+    \includegraphics[scale=0.7]{p03/e14-7.png}
+\end{figure}
+
+
+\subsection{Ejercicio 19}
+
 % Práctica 04
 \section{Práctica 04}
 
