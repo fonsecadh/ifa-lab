@@ -1,6 +1,8 @@
 \babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
-\contentsline {section}{\numberline {2}Práctica 02}{2}{section.2}%
-\contentsline {section}{\numberline {3}Práctica 03}{2}{section.3}%
-\contentsline {section}{\numberline {4}Práctica 04}{2}{section.4}%
-\contentsline {section}{\numberline {5}Práctica 05}{2}{section.5}%
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {section}{\numberline {2}Práctica 02}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Ejercicio 27}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Ejercicio 31}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Práctica 03}{12}{section.3}%
+\contentsline {section}{\numberline {4}Práctica 04}{12}{section.4}%
+\contentsline {section}{\numberline {5}Práctica 05}{12}{section.5}%

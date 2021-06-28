@@ -62,7 +62,11 @@
     \end{center}
 \end{titlepage}
 
+\newpage
+
 \tableofcontents
+
+\newpage
 
 % Introducción
 \section{Introducción}
@@ -84,6 +88,76 @@ Las máquinas virtuales utilizadas pueden verse en la siguiente imagen.
 
 % Práctica 02
 \section{Práctica 02}
+
+\subsection{Ejercicio 27}
+Se descomprime el archivo con el comando \verb|tar| y las flags \textit{xvzf}, siendo \textit{x} una indicación de que se quiere extraer los contenidos del archivo comprimido, \textit{v} para que lo haga de manera verbosa, \textit{z} para indicarle al comando que el archivo es un zip y \textit{f} para pasarle el fichero que se desea extraer al comando.
+
+\begin{figure}[H]
+    \caption{Ejercicio 27: \textit{tar -xvzf}.}
+  \centering
+  \includegraphics[scale=0.7, trim={0 7cm 0 0}, clip]{p02/e27-1.png}
+\end{figure}
+
+Una vez descomprimidos los ficheros de texto, se procede a utilizar tres nuevas herramientas. Se usa \verb|tac| para concatenar ficheros de forma inversa (es el comando \verb|cat| invertido), el lenguaje de programación AWK para procesar texto y el comando \verb|uniq| para omitir líneas repetidas.
+
+\begin{figure}[H]
+    \caption{Ejercicio 27: \textit{tac, AWK y uniq}.}
+  \centering
+  \includegraphics[scale=0.7]{p02/e27-2.png}
+\end{figure}
+
+\subsection{Ejercicio 31}
+Se crea el caso en Autopsy con los datos solicitados.
+
+\begin{figure}[H]
+    \caption{Ejercicio 31: Creación del caso}
+  \centering
+  \includegraphics[scale=0.7]{p02/e31-1.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 31: Selección de la imagen a analizar}
+  \centering
+  \includegraphics[scale=0.7]{p02/e31-2.png}
+\end{figure}
+
+Se seleccionan los módulos y se configura el módulo de búsqueda de palabras clave.
+
+\begin{figure}[H]
+    \caption{Ejercicio 31: Palabras clave}
+  \centering
+  \includegraphics[scale=0.7]{p02/e31-3.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 31: Módulos seleccionados}
+  \centering
+  \includegraphics[scale=0.7]{p02/e31-4.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 31: Configuración de los lenguajes de la búsqueda}
+  \centering
+  \includegraphics[scale=0.7]{p02/e31-5.png}
+\end{figure}
+
+Una vez finalizado el análisis, se pueden observar los ficheros encontrados.
+
+\begin{figure}[H]
+    \caption{Ejercicio 31: Resultados del análisis}
+  \centering
+  \includegraphics[scale=0.7]{p02/e31-6.png}
+\end{figure}
+
+Se reconstruye el menú del restaurante, creado inicialmente el 3 de noviembre de 2004.
+
+\begin{figure}[H]
+    \caption{Ejercicio 31: Menú reconstruido}
+  \centering
+  \includegraphics[scale=0.7]{p02/e31-7.png}
+\end{figure}
+
+
 
 % Práctica 03
 \section{Práctica 03}
