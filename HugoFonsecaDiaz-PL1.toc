@@ -19,3 +19,4 @@
 \contentsline {subsection}{\numberline {5.1}Ejercicio 5}{60}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Ejercicio 25}{67}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Ejercicio 31}{70}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Índice de figuras}{77}{section.6}%
