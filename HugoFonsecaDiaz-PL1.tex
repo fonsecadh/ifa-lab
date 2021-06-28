@@ -775,7 +775,47 @@ Lo que pide el ejercicio puede obtenerse mediante las flags \textit{bfp}, cuyas 
 La operación debe realizarse con permisos de administrador.
 
 \subsection{Ejercicio 25}
-TBD
+Este ejercicio, como el 7 de la práctica 4, fue realizado en el ordenador de un familiar, ya que Virtualbox en Linux no parece reconocer los USBs conectados a la máquina anfitriona, lo que impide realizar los filtros.
+
+Lo primero que se va a hacer es formatear un USB con el sistema de archivos NTFS y posteriormente se van a crear dos particiones, una en NTFS y otra en FAT32.
+
+\begin{figure}[H]
+    \caption{Ejercicio 25: USB con las particiones}
+  \centering
+    \includegraphics[scale=0.4]{p05/e25-1.PNG}
+\end{figure}
+
+Ahora, se introducen ficheros de ejemplo en ambas particiones y posteriormente se borran dichas particiones.
+
+\begin{figure}[H]
+    \caption{Ejercicio 25: Borrado de las particiones}
+  \centering
+    \includegraphics[scale=0.4]{p05/e25-2.PNG}
+\end{figure}
+
+Se añade el filtro del usb y se conecta a la máquina virtual. Aquí se produce un problema inesperado, tanto la máquina anfitriona con Linux como la del familiar con Windows son el mismo modelo, y ambas cuentan solo con puertos USB 3.0. Como Windows 7 no tiene soporte para USB 3.0 se intentaron instalar los drivers necesarios, pero la operación no pudo ejecutarse.
+
+\begin{figure}[H]
+    \caption{Ejercicio 25: Fallo al instalar los drivers de los puertos de USB 3.0}
+  \centering
+    \includegraphics[scale=0.8]{p05/e25-3.png}
+\end{figure}
+
+\begin{figure}[H]
+    \caption{Ejercicio 25: Filtro USB configurado correctamente}
+  \centering
+    \includegraphics[scale=0.4]{p05/e25-5.PNG}
+\end{figure}
+
+Como no se puede conectar el USB al equipo virtual, se seguirá el ejercicio hasta donde sea posible. La aplicación que se usaría para resolver el ejercicio se encuentra en la carpeta \textit{PhotoRec}, y se llama \textit{testdisk}.
+
+\begin{figure}[H]
+    \caption{Ejercicio 25: Aplicación \textit{testdisk}}
+  \centering
+    \includegraphics[scale=0.8]{p05/e25-6.png}
+\end{figure}
+
+Aquí se debería seleccionar el USB correcto, elegir el tipo de la tabla de particiones, y realizar un análisis. Lamentablemente, debido a los problemas antes mencionados, no se ha podido continuar con el ejercicio.
 
 \subsection{Ejercicio 31}
 TBD
